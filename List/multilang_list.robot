@@ -20,7 +20,7 @@ Get Text
 *** Test Cases ***
 Test WebSite String
 	Set Website    rc
-    Log    qrcode Text: ${qrcode}
+	Log    qrcode Text: ${qrcode}
 
 	Set Website    org
 	Log    qrcode Text: ${qrcode}
