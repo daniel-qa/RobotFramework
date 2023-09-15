@@ -14,8 +14,8 @@ Open Google and Search
     Sleep    3s
 
     Log    將滑鼠停留在某物件上
-	${element}    Get WebElement    id=icon
-	Mouse Over    ${element}
+    ${element}    Get WebElement    id=icon
+    Mouse Over    ${element}
 
 *** Keywords ***
 關閉Browser
