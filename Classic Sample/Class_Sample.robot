@@ -8,7 +8,7 @@ Suite Teardown    關閉Browser
 Open Google and Search
     Open Browser    https://www.google.com    chrome
     #Go To           ${URL}
-    #Refresh Page                      # 刷新页面
+    #Reload Page                      # 刷新页面
     Input Text    name=q    自動化測試
     Press Keys    name=q    \n   # \n 對應Enter鍵
     Sleep    3s
