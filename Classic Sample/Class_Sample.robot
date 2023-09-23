@@ -7,7 +7,7 @@ Suite Teardown    關閉Browser
 *** Test Cases ***
 Open Google and Search
     Open Browser    https://www.google.com    chrome
-	Maximize Browser Window
+    Maximize Browser Window
     #Go To           ${URL}
     #Reload Page                      # 刷新页面
     Input Text    name=q    自動化測試
